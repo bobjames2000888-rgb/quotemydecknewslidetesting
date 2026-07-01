@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    <!-- Preload the LCP hero image so it paints on first frame. Vite will
+         rewrite this href at build time via <link rel=modulepreload> chains
+         for the JS chunks; the raw image URL below is a safe hint that
+         gracefully no-ops if the asset name changes. -->
+    <link rel="preload" as="image" href="/src/assets/hero-deck.jpg" fetchpriority="high" />
+    <title>QuoteMyDeck: Australia&#39;s #1 Decking Quote Platform — Get 3 Free Quotes in Minutes</title>
+    <meta name="description" content="Get free decking quotes from Australia&#39;s top contractors. Compare prices, read reviews, and book installations online. Composite, timber, and feature decking.">
+    <meta name="author" content="QuoteMyDeck" />
+    <meta name="keywords" content="decking quotes, deck installation, composite decking, timber decking, decking contractors Australia" />
+
+    
+    
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@quotemydeck" />
+    <meta property="og:title" content="QuoteMyDeck: Australia&#39;s #1 Decking Quote Platform — Get 3 Free Quotes in Minutes">
+    <meta name="twitter:title" content="QuoteMyDeck: Australia&#39;s #1 Decking Quote Platform — Get 3 Free Quotes in Minutes">
+    <meta property="og:description" content="Get free decking quotes from Australia&#39;s top contractors. Compare prices, read reviews, and book installations online. Composite, timber, and feature decking.">
+    <meta name="twitter:description" content="Get free decking quotes from Australia&#39;s top contractors. Compare prices, read reviews, and book installations online. Composite, timber, and feature decking.">
+</head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
